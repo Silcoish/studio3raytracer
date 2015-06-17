@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kf">
+      <UniqueIdentifier>{76785900-6204-880B-CBB2-880BB75D880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kf\src">
+      <UniqueIdentifier>{8D81C808-7923-F3DE-62DE-06334E1F7A2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CImg.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="kf\kf.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_algorithms_2d.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_algorithms_3d.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_binlog.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_colour.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_euler.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_file.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_flag.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_geom_tools.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_log.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_math.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_matrix.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_matrix3.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_matrix4.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_memBlock.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_memFile.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_memPool.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_perlin.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_quaternion.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_random.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_ray.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_shapes.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_streams.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_time.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_types.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_vector.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_vector2.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_vector3.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="kf\kf_vector4.h">
+      <Filter>kf</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="renderable.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="Logger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="kf\src\kf_binlog.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_colour.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_euler.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_file.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_flag.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_log.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_main.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_math.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_matrix3.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_matrix4.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_memBlock.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_memFile.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_memPool.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_perlin.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_quaternion.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_random.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_time.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="kf\src\kf_vector.cpp">
+      <Filter>kf\src</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="renderable.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="Logger.cpp" />
+  </ItemGroup>
+</Project>
